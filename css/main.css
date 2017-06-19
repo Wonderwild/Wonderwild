@@ -29,7 +29,8 @@ body {
 .heading {
   font-weight: 100;
   font-size: 50px;
-  line-height: 68px;
+  line-height: 60px;
+  color: #575756;
 }
 @media (max-width: 900px) {
 .heading {
@@ -134,18 +135,19 @@ p.paragraph {
 .col-3 {width: 25%;}
 .col-4 {width: 33.333333%;}
 .col-5 {width: 41.666667%;}
-.col-6 {width: 50%;}
+.col-6 {width: 60%;}
 .col-7 {width: 58.333333%;}
 .col-8 {width: 66.666667%;}
 .col-9 {width: 75%;}
 .col-10 {width: 83.333333%;}
 .col-11 {width: 91.666667%;}
 .col-12 {width: 100%;}
+.col-13 {width: 40%;}
 
 /*containers*/
 .container-lrg,
 .container-sml {
-  margin: auto;
+  margin-left: 10%;
   width: 100%;
 }
 .container-lrg {
@@ -160,13 +162,15 @@ p.paragraph {
 .centerdevices,
 .sidedevices {
   position: relative;
-}.header {
-	padding: 20px 0 60px 0;
+}
+.header {
+	padding: 10px 0 60px 0;
 	overflow: hidden;
+	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .header .sidedevices {
-	margin: 60px 0 0
-}
+/*	margin: 60px 0 0
+*/}
 @media (max-width: 900px) {
 	.header .sidedevices {
 		min-height: inherit;
@@ -203,7 +207,23 @@ p.paragraph {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;
-	border: 1px solid white;
+	border: 1px solid #575756;
+	text-decoration: none;
+}
+.ctas-button:hover {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	height: 40px;
+	line-height: 38px;
+	padding: 0 30px;
+	background: #575756;
+	border-radius: 3px;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .3px;
+	border: 1px solid #575756;
 	text-decoration: none;
 }
 @media (max-width: 440px) {
@@ -216,9 +236,11 @@ p.paragraph {
 	.ctas-button {
 		margin: 10px 0 0 0;
 	}
-}.socialproof {
+}
+.socialproof {
 	padding: 90px 0;
-}.ctas-button,
+}
+.ctas-button,
 .ctas-button-2 {
 	display: inline-block;
 	height: 40px;
@@ -230,7 +252,7 @@ p.paragraph {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;
-	border: 1px solid white;
+	border: 1px solid #575756;
 	text-decoration: none;
 }
 .ctas-button-2 {
@@ -266,7 +288,7 @@ p.paragraph {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;
-	border: 1px solid white;
+	border: 1px solid #575756;
 	text-decoration: none;
 }
 .ctas-button-2 {
@@ -284,7 +306,8 @@ p.paragraph {
 	.ctas-button-2 {
 		margin: 10px 0 0 0;
 	}
-}.feature4 {
+}
+.feature4 {
 	padding: 90px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
@@ -300,7 +323,8 @@ p.paragraph {
 	.feature4	.col-6 {
 		width: 100%;
 	}
-}.feature3 {
+}
+.feature3 {
 	padding: 90px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
