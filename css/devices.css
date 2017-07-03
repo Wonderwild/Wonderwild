@@ -7,9 +7,16 @@
 	background: white;
 }
 .sidedevices .iphoneipad .mask-img {
-	width: 100%;
+	width: 98%;
+	margin-left:2px;
 	display: block;
 }
+
+.sidedevices .iphoneipad .mask-img2 {
+	width: 115%;
+	display: block;
+}
+
 .sidedevices .iphoneipad .iphone,
 .sidedevices .iphoneipad .ipad {
 	border-radius: 40px;

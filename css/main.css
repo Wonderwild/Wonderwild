@@ -133,7 +133,9 @@ p.paragraph {
 .col-1 {width: 8.333333%;}
 .col-2 {width: 16.666667%;}
 .col-3 {width: 25%;}
-.col-4 {width: 33.333333%;}
+.col-4 {width: 33.333333%;
+padding-right:5%;
+}
 .col-5 {width: 41.666667%;}
 .col-6 {width: 60%;}
 .col-7 {width: 58.333333%;}
@@ -238,6 +240,8 @@ p.paragraph {
 	}
 }
 .socialproof {
+	text-align: center;
+	width: 100vw;
 	padding: 90px 0;
 }
 .ctas-button,
@@ -276,7 +280,8 @@ p.paragraph {
 .footer .nav-link {
 	display: inline-block;
 	margin: 0 10px;
-}.ctas-button,
+}
+.ctas-button,
 .ctas-button-2 {
 	display: inline-block;
 	height: 40px;
@@ -325,7 +330,9 @@ p.paragraph {
 	}
 }
 .feature3 {
-	padding: 90px 0;
+	text-align:center;
+	margin: 100px;
+	padding-bottom: 100px;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .feature3 .emoji {
